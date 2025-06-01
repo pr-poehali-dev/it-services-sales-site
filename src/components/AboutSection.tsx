@@ -44,14 +44,12 @@ const AboutSection = () => {
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="text-center p-4 bg-purple-50 rounded-lg">
-                <div className="text-2xl font-bold text-purple-600 mb-1">
-                  98%
-                </div>
+              <div className="text-center p-4 bg-red-50 rounded-lg">
+                <div className="text-2xl font-bold text-red-600 mb-1">98%</div>
                 <div className="text-gray-600">Довольных клиентов</div>
               </div>
-              <div className="text-center p-4 bg-green-50 rounded-lg">
-                <div className="text-2xl font-bold text-green-600 mb-1">
+              <div className="text-center p-4 bg-blue-50 rounded-lg">
+                <div className="text-2xl font-bold text-blue-600 mb-1">
                   45 дней
                 </div>
                 <div className="text-gray-600">Средний срок проекта</div>
@@ -63,15 +61,15 @@ const AboutSection = () => {
             {advantages.map((advantage, index) => (
               <Card
                 key={index}
-                className="border-l-4 border-l-purple-500 shadow-sm"
+                className="border-l-4 border-l-red-500 shadow-sm"
               >
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
-                    <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
                       <Icon
                         name={advantage.icon as any}
                         size={20}
-                        className="text-purple-600"
+                        className="text-red-600"
                       />
                     </div>
                     <div>

@@ -61,7 +61,7 @@ const ContactSection = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                      className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-red-500"
                     />
                   </div>
                   <div>
@@ -74,7 +74,7 @@ const ContactSection = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                      className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-red-500"
                     />
                   </div>
                 </div>
@@ -88,7 +88,7 @@ const ContactSection = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-red-500"
                   />
                 </div>
 
@@ -100,7 +100,7 @@ const ContactSection = () => {
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
-                    className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-red-500"
                   >
                     <option value="">Выберите услугу</option>
                     <option value="web">Веб-разработка</option>
@@ -122,14 +122,14 @@ const ContactSection = () => {
                     onChange={handleChange}
                     required
                     rows={4}
-                    className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none"
+                    className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-red-500 resize-none"
                     placeholder="Расскажите подробнее о вашем проекте..."
                   />
                 </div>
 
                 <Button
                   type="submit"
-                  className="w-full bg-purple-600 hover:bg-purple-700"
+                  className="w-full bg-red-600 hover:bg-red-700"
                 >
                   Отправить заявку
                   <Icon name="Send" size={20} />
